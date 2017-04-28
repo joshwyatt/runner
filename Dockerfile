@@ -1,4 +1,4 @@
-FROM mhart/alpine-node:6.6
+FROM node:7.8.0-alpine
 
 RUN mkdir app
 ADD package.json app
